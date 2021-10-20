@@ -3,7 +3,7 @@ export default {
     about: 'Über',
     education: 'Bildung',
     experience: 'Erfahrungen',
-    skills: 'Skills',
+    skills: 'Kentnisse',
     projects: 'Projekte',
   },
   about: {
@@ -32,7 +32,7 @@ export default {
     }
   },
   experience: {
-    headline: 'Erfahrung',
+    headline: 'Erfahrungen',
     fictionic: {
       toFrom: 'Seit  01.10.2020',
       what: 'Mitgründer',
@@ -200,7 +200,7 @@ export default {
         imageAlt: 'Bild von der Webseite Cold Case Detectives',
         headline: 'Cold Case Detectives',
         stack: 'Nuxt.js, Tailwind, Vuex, i18n',
-        info: 'Technologies: ',
+        info: 'Landingpage für Cold Case Detectives sowie eine Datenbank um die Spiele von Cold Case Detectives spielen zu können.',
         href: 'https://www.coldcasedetectives.de',
       },
       {
