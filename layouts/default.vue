@@ -14,7 +14,7 @@
       "
     >
       <!-- logo -->
-      <a href="/" class="block p-4 text-white font-bold">Malene Klit</a>
+      <a href="/" class="block p-4 font-bold">Malene Klit</a>
 
       <!-- mobile menu button -->
       <button
@@ -63,51 +63,62 @@
         flex flex-col
         text-center
         z-50
-        md:justify-center
+        md:justify-between
         max-h-screen
       "
       :class="active ? '' : '-translate-x-full'"
     >
-      <!-- image -->
-      <a
-        v-scroll-to="'#about'"
-        class="text-white flex flex-col items-center space-x-2 px-4"
-      >
-        <nuxt-img
+      <div></div>
+      <div>
+        <!-- image -->
+        <a
+          href="#about"
           class="
-            rounded-full
-            w-32
-            h-32
-            md:h-42 md:w-42
-            ring-8 ring-purple-400
-            border-opacity-75
-            mb-8
+            text-white
+            flex flex-col
+            items-center
+            space-x-2
+            px-4
+            scrollactive-item
           "
-          format="webp"
-          src="/malene-2x.jpg"
-        />
-      </a>
+        >
+          <nuxt-img
+            class="
+              rounded-full
+              w-32
+              h-32
+              md:h-42 md:w-42
+              ring-8 ring-purple-400
+              border-opacity-75
+              mb-8
+            "
+            format="webp"
+            src="/malene-2x.jpg"
+          />
+        </a>
 
-      <!-- nav -->
-      <!-- <nav> -->
-      <scrollactive class="my-nav" active-class="active">
-        <a href="#about" class="nav-link scrollactive-item">
-          {{ $t('links.about') }}
-        </a>
-        <a href="#education" class="nav-link scrollactive-item">
-          {{ $t('links.education') }}
-        </a>
-        <a href="#experience" class="nav-link scrollactive-item">
-          {{ $t('links.experience') }}
-        </a>
-        <a href="#skills" class="nav-link scrollactive-item">
-          {{ $t('links.skills') }}
-        </a>
-        <a href="#projects" class="nav-link scrollactive-item">
-          {{ $t('links.projects') }}
-        </a>
-      </scrollactive>
-      <!-- </nav> -->
+        <!-- nav -->
+        <scrollactive class="my-nav" active-class="active">
+          <a href="#about" class="nav-link scrollactive-item">
+            {{ $t('links.about') }}
+          </a>
+          <a href="#education" class="nav-link scrollactive-item">
+            {{ $t('links.education') }}
+          </a>
+          <a href="#experience" class="nav-link scrollactive-item">
+            {{ $t('links.experience') }}
+          </a>
+          <a href="#skills" class="nav-link scrollactive-item">
+            {{ $t('links.skills') }}
+          </a>
+          <a href="#projects" class="nav-link scrollactive-item">
+            {{ $t('links.projects') }}
+          </a>
+        </scrollactive>
+      </div>
+
+      <!-- Langswitch -->
+      <Lang />
     </div>
 
     <!-- content -->
@@ -152,7 +163,7 @@ h4 {
 }
 
 .nav-link {
-  @apply block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-400 hover:text-white cursor-pointer;
+  @apply block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-400 text-white cursor-pointer;
 }
 .nav-link.active {
   @apply bg-purple-400 cursor-pointer;

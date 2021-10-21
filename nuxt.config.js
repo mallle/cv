@@ -44,11 +44,13 @@ export default {
     ['@nuxtjs/i18n', 
       {
         locales: [
-          {
+          { 
+            name: 'English',
             code: 'en',
             file: 'en-US.js'
           },
           {
+            name: 'Deutsch',
             code: 'de',
             file: 'de-DE.js'
           }
@@ -59,6 +61,10 @@ export default {
       }
     ],
   ],
+
+  generate: {
+    dir: 'docs'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

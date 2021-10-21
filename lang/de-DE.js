@@ -11,7 +11,7 @@ export default {
     location: 'München, Deutschland'
   },
   education: {
-    headline: 'Bildung',
+    headline: 'Education',
     bk: {
       toFrom: '08.2007 – 07.2009',
       what: 'Ausbildung zu Bürokauffrau (Dänisches Zeugnis)',
