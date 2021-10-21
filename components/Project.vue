@@ -46,7 +46,7 @@
             self-start
           "
         >
-          <strong>Stack:</strong> {{ stack }}
+          <strong>Stack/Tools:</strong> {{ stack }}
         </p>
         <p class="text-lg text-gray-400 font-normal self-start">{{ info }}</p>
       </div>
