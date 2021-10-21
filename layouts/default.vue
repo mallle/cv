@@ -14,7 +14,7 @@
       "
     >
       <!-- logo -->
-      <a href="#" class="block p-4 text-white font-bold">Malene Klit</a>
+      <a href="/" class="block p-4 text-white font-bold">Malene Klit</a>
 
       <!-- mobile menu button -->
       <button
@@ -69,7 +69,10 @@
       :class="active ? '' : '-translate-x-full'"
     >
       <!-- image -->
-      <a href="#" class="text-white flex flex-col items-center space-x-2 px-4">
+      <a
+        v-scroll-to="'#about'"
+        class="text-white flex flex-col items-center space-x-2 px-4"
+      >
         <nuxt-img
           class="
             rounded-full
@@ -86,23 +89,25 @@
       </a>
 
       <!-- nav -->
-      <nav>
-        <a v-scroll-to="'#about'" class="nav-link">
+      <!-- <nav> -->
+      <scrollactive class="my-nav" active-class="active">
+        <a href="#about" class="nav-link scrollactive-item">
           {{ $t('links.about') }}
         </a>
-        <a v-scroll-to="'#education'" class="nav-link">
+        <a href="#education" class="nav-link scrollactive-item">
           {{ $t('links.education') }}
         </a>
-        <a v-scroll-to="'#experience'" class="nav-link">
+        <a href="#experience" class="nav-link scrollactive-item">
           {{ $t('links.experience') }}
         </a>
-        <a v-scroll-to="'#skills'" class="nav-link">
+        <a href="#skills" class="nav-link scrollactive-item">
           {{ $t('links.skills') }}
         </a>
-        <a v-scroll-to="'#projects'" class="nav-link">
+        <a href="#projects" class="nav-link scrollactive-item">
           {{ $t('links.projects') }}
         </a>
-      </nav>
+      </scrollactive>
+      <!-- </nav> -->
     </div>
 
     <!-- content -->
@@ -148,6 +153,9 @@ h4 {
 
 .nav-link {
   @apply block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-400 hover:text-white cursor-pointer;
+}
+.nav-link.active {
+  @apply bg-purple-400 cursor-pointer;
 }
 
 .cv-section {
