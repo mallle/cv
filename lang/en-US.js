@@ -191,7 +191,7 @@ export default {
         imageAlt: 'Image of Storyways Wiki Webseite',
         headline: 'Storyways Wiki',
         stack: 'Nuxt/Content.',
-        info: 'Documentation for Writers of Storyways.',
+        info: 'Documentation for writers of Storyways.',
         href: 'https://wiki.storyways.app',
 
       },
@@ -240,7 +240,7 @@ export default {
         imageAlt: 'Image of habittracker',
         headline: 'Habitttacker',
         stack: 'Symfony 4, Doctrine, Twig and Bulma',
-        info: 'Webapp where you can track one or more Habits.',
+        info: 'Webapp where you can track one or more habits.',
         href: 'https://github.com/mallle/dailys',
       },
       {
@@ -248,7 +248,7 @@ export default {
         imageAlt: 'Image of PHP notes',
         headline: 'Symfony Notes',
         stack: 'VanillaJS, HTML and CSS',
-        info: 'Website where I add my notices while learning Symfony 4.',
+        info: 'Website where I added my notices while learning Symfony 4.',
         href: 'https://php-notes.netlify.app/',
       },
     ]
