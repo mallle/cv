@@ -15,7 +15,7 @@ export default {
     bk: {
       toFrom: '08.2007 – 07.2009',
       what: 'Apprenticeship - Office clerk (Certifate in Danish)',
-      where: 'Burger King® GmbH – Central Europa München',
+      where: 'at Burger King® GmbH – Central Europa München',
       info: 'Department: Development und Facility/Company Operations',
     },
     study: {
@@ -27,7 +27,7 @@ export default {
     ldi: {
       toFrom: '09.2017 – 07.2019',
       what: 'Apprenticeship as Application Developer',
-      where: 'by LINKS DER ISAR GmbH',
+      where: 'at LINKS DER ISAR GmbH',
       info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j'
     }
   },
@@ -36,37 +36,37 @@ export default {
     fictionic: {
       toFrom: 'Since  01.10.2020',
       what: 'Co-founder',
-      where: 'by Fictionic UG (haftungsbeschränkt)',
+      where: 'at Fictionic UG (haftungsbeschränkt)',
       info: 'Development of static websites with Nuxt.js. Among other things, a database for a mystery file game (soon to be launched). As well as www.storyways.app which is set up with the headless CMS Storyblok. Project management/development of the app Storyways.'
     },
     burda: {
       toFrom: 'Since 01.01.2021',
       what: 'Solution Developer',
-      where: 'by Abonnenten Service Center GmbH',
+      where: 'at Abonnenten Service Center GmbH',
       info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.'
     },
     burdaNews: {
       toFrom: '15.07.2019 – 31.12.2020',
       what: 'Junior Software Developer',
-      where: 'by BurdaNews GmbH.',
+      where: 'at BurdaNews GmbH.',
       info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.'
     },
     innoactive : {
       toFrom: '16.06.2018 – 14.09.2017',
       what: 'HR Manager',
-      where: 'by Innoactive GmbH',
+      where: 'at Innoactive GmbH',
       info: 'Establishment of processes in the area of recruiting and onboarding as well as strengthening of the employer brand.'
     },
     parcellab: {
       toFrom: '15.08.2016 – 15.06.2017',
       what: 'HR Manager',
-      where: 'by parcelLab GmbH',
+      where: 'at parcelLab GmbH',
       info: 'Establishment of processes in the area of recruiting and onboarding.'
     },
     rossmann: {
       toFrom: '10.2011 – 10.2013',
       what: 'Visual Merchandiser',
-      where: 'by Rossmann GmbH.',
+      where: 'at Rossmann GmbH.',
       info: 'Marketing support for 40 stores in Bavaria.'
     },
   },
