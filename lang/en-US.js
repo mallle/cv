@@ -5,6 +5,9 @@ export default {
     experience: 'Experience',
     skills: 'Skills',
     projects: 'Procjects',
+    legal: 'Legal Notice',
+    privacy: 'Privacy Policy',
+    start: 'Start'
   },
   about: {
     subtitle: 'Webdeveloper',
@@ -175,7 +178,7 @@ export default {
     ],
   },
   projects: {
-    headline: 'Projectes',
+    headline: 'Projects',
     linkToProject: 'Go to Webseite',
     items: [ 
       {

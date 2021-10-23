@@ -64,6 +64,7 @@
         text-center
         z-50
         md:justify-between
+        justify-between
         max-h-screen
       "
       :class="active ? '' : '-translate-x-full'"
@@ -98,65 +99,31 @@
         </a>
 
         <!-- nav -->
-        <scrollactive class="my-nav" active-class="active">
-          <a
-            href="#about"
-            class="nav-link scrollactive-item"
-            @click="active = !active"
-          >
-            {{ $t('links.about') }}
-          </a>
-          <a
-            href="#education"
-            class="nav-link scrollactive-item"
-            @click="active = !active"
-          >
-            {{ $t('links.education') }}
-          </a>
-          <a
-            href="#experience"
-            class="nav-link scrollactive-item"
-            @click="active = !active"
-          >
-            {{ $t('links.experience') }}
-          </a>
-          <a
-            href="#skills"
-            class="nav-link scrollactive-item"
-            @click="active = !active"
-          >
-            {{ $t('links.skills') }}
-          </a>
-          <a
-            href="#projects"
-            class="nav-link scrollactive-item"
-            @click="active = !active"
-          >
-            {{ $t('links.projects') }}
-          </a>
-        </scrollactive>
+
+        <nuxt-link
+          :to="{ path: localePath('index') }"
+          class="nav-link"
+          @click="active = !active"
+        >
+          {{ $t('links.start') }}
+        </nuxt-link>
       </div>
 
-      <!-- Langswitch -->
-
-      <div>
-        <Lang />
-        <div class="flex flex-row">
-          <nuxt-link
-            :to="{ path: localePath('privacy') }"
-            class="nav-link"
-            @click="active = !active"
-          >
-            {{ $t('links.privacy') }}
-          </nuxt-link>
-          <nuxt-link
-            :to="{ path: localePath('legal-notice') }"
-            class="nav-link"
-            @click="active = !active"
-          >
-            {{ $t('links.legal') }}
-          </nuxt-link>
-        </div>
+      <div class="flex flex-row">
+        <nuxt-link
+          :to="{ path: localePath('privacy') }"
+          class="nav-link"
+          @click="active = !active"
+        >
+          {{ $t('links.privacy') }}
+        </nuxt-link>
+        <nuxt-link
+          :to="{ path: localePath('legal-notice') }"
+          class="nav-link"
+          @click="active = !active"
+        >
+          {{ $t('links.legal') }}
+        </nuxt-link>
       </div>
     </div>
 
@@ -176,39 +143,3 @@ export default {
   },
 }
 </script>
-
-<style>
-body {
-  @apply font-sans;
-}
-
-h1 {
-  @apply text-4xl md:text-7xl font-bold pb-3 uppercase tracking-widest font-mono;
-}
-
-h3 {
-  @apply text-3xl md:text-6xl font-bold pb-3 uppercase tracking-widest font-mono;
-}
-
-h1:after,
-h3:after {
-  content: '\A';
-  @apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 h-2 w-4;
-  @apply flex h-1 w-64;
-}
-
-h4 {
-  @apply text-xl md:text-2xl font-bold pb-3 pt-6;
-}
-
-.nav-link {
-  @apply block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-400 text-white cursor-pointer;
-}
-.nav-link.active {
-  @apply bg-purple-400 cursor-pointer;
-}
-
-.cv-section {
-  @apply min-h-screen px-4 py-6 md:p-8 max-w-6xl mx-auto flex flex-col justify-center;
-}
-</style>

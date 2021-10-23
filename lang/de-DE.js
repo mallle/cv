@@ -5,6 +5,9 @@ export default {
     experience: 'Erfahrungen',
     skills: 'Kentnisse',
     projects: 'Projekte',
+    legal: 'Impressum',
+    privacy: 'Dantenschutz',
+    start: 'Startseite'
   },
   about: {
     subtitle: 'Webdeveloper',

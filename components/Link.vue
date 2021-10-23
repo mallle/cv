@@ -26,3 +26,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.link {
+  @apply text-purple-400  hover:text-pink-500 cursor-pointer break-words;
+}
+</style>
