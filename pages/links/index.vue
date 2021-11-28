@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .links-link-en {
   @apply bg-blue-200 md:hover:bg-purple-300
         text-gray-100 cursor-pointer break-words rounded-md p-4 my-4 text-center text-white
