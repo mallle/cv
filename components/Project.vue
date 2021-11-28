@@ -5,7 +5,6 @@
       class="
         w-full
         border-4
-        text-blue-100
         rounded-lg
         p-8
         flex flex-col
@@ -14,9 +13,8 @@
         duration-500
         ease-in-out
         transform
-        md:hover:scale-95
         border-purple-400
-        hover:bg-purple-50
+        md:hover:scale-95 md:hover:bg-blue-50 md:hover:border-blue-200
       "
     >
       <div class="flex flex-col items-center">

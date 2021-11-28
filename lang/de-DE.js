@@ -9,65 +9,71 @@ export default {
     privacy: 'Dantenschutz',
     start: 'Startseite'
   },
+  metadata: {
+    start: 'CV',
+    privacy: 'Datenschutz',
+    legal: 'Impressum',
+    links: 'Links'
+  },
   about: {
     subtitle: 'Webdeveloper',
     location: 'München, Deutschland'
   },
   education: {
-    headline: 'Education',
+    headline: 'Bildung',
     bk: {
-      toFrom: '08.2007 – 07.2009',
-      what: 'Ausbildung zu Bürokauffrau (Dänisches Zeugnis)',
-      where:  'Burger King® GmbH – Central Europa München',
-      info: 'Abteilung: Development und Facility/Company Operations',
+      toFrom: 'August 2007 – Juli 2009',
+      what: 'Ausbildung zur Bürokauffrau (Dänisches Zeugnis)',
+      where:  'Burger King® GmbH – Central Europe München',
+      info: 'Abteilung: Development und Facility/Company Operations.',
     },
     study: {
-      toFrom: '10.2013 – 07.2016',
-      what: 'B.Sc. Wirtschaftpädagogik I',
+      toFrom: 'Okotber 2013 – Juli 2016',
+      what: 'B.Sc. Wirtschaftspädagogik I',
       where: 'an der Ludwig-Maximilians-Universität in München',
-      info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich'
+      info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich.'
     },
     ldi: {
-      toFrom: '09.2017 – 07.2019',
-      what: 'Ausbildung zur Fachinformatiker als Anwendungsentwicklerin',
+      toFrom: 'September 2017 – Juli 2019',
+      what: 'Ausbildung zur Fachinformatikerin als Anwendungsentwicklerin',
       where: 'bei LINKS DER ISAR GmbH',
-      info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j'
+      info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.'
     }
   },
   experience: {
     headline: 'Erfahrungen',
     fictionic: {
-      toFrom: 'Seit  01.10.2020',
-      what: 'Mitgründer',
+      toFrom: 'Seit  Oktober 2020',
+      what: 'Mitgründerin',
       where: 'von Fictionic UG (haftungsbeschränkt)',
-      info: 'Entwicklung von statischen Webseiten mit Nuxt.js. Unteranderem einer Datenbank für ein Krimi-Aktenspiel (das bald auf den Markt kommt). Sowie www.storyways.app das mit dem Headless CMS Storyblok aufgesetzt ist. Project Management/Entwicklung der App Storyways.'
+      info: 'Entwicklung von Webseiten mit Nuxt.js mit Einbindung vom Headless CMS Storyblok. Projektmanagement/Entwicklung der Storyways App.'
     },
     burda: {
-      toFrom: 'Seit 01.01.2021',
+      toFrom: 'Seit Januar 2021',
       what: 'Solution Developer',
       where: 'bei Abonnenten Service Center GmbH (Ausgelöst durch Umstrukturierungen im Unternehmen)',
       info: 'Entwicklung und Betreuung von internen Web-Apps mit Symfony 4/5, JQuery und Bootsrap.'
     },
     burdaNews: {
-      toFrom: '15.07.2019 – 31.12.2020',
+      toFrom: 'Juli 2019 – Dezember 2020',
       what: 'Junior Software Developer',
-      where: 'bei BurdaNews GmbH.',
-      info: 'Entwicklung von internen Web-Apps mit Symfony, JQuery und Bootsrap.'
+      where: 'bei BurdaNews GmbH',
+      info: 'Entwicklung von internen Web-Apps mit Symfony 4, JQuery und Bootsrap.'
     },
     innoactive : {
-      toFrom: '16.06.2018 – 14.09.2017',
+      toFrom: 'Juli 2017 – September 2017',
       what: 'HR Manager',
       where: 'bei Innoactive GmbH',
-      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding sowie Stärkung des Employer Brand.'
+      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding sowie Stärkung des Employer Branding.'
     },
     parcellab: {
-      toFrom: '15.08.2016 – 15.06.2017',
+      toFrom: 'August 2016 – Juni 2017',
       what: 'HR Manager',
       where: 'parcelLab GmbH',
       info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding.'
     },
     rossmann: {
-      toFrom: '10.2011 – 10.2013',
+      toFrom: 'Oktober 2011 – Oktober 2013',
       what: 'Visual Merchandiser',
       where: 'im Außendienst bei Rossmann GmbH.',
       info: 'Betreuung im Bereich Marketing von 40 Läden in Bayern.'
@@ -186,7 +192,7 @@ export default {
         imageAlt: 'Bild von der Webseite Storyways',
         headline: 'Storyways',
         stack: 'Nuxt.js, Tailwind css, Storyblok, i18n.',
-        info: 'Landingpage für die App Storyways. Eine App entwickelt in zusammenarbeit mit Fictionic UG und Tapped UG.',
+        info: 'Landingpage für die App Storyways.',
         href: 'https://www.storyways.app',
       },
       {
@@ -194,7 +200,7 @@ export default {
         imageAlt: 'Bild von der Webseite Storyways Wiki',
         headline: 'Storyways Wiki',
         stack: 'Nuxt/Content.',
-        info: 'Dokumentation für Author:innen die Geschichten verfassen für Storyways.',
+        info: 'Dokumentation für Autor:innen, die Geschichten für Storyways verfassen.',
         href: 'https://wiki.storyways.app',
 
       },
@@ -211,7 +217,7 @@ export default {
         imageAlt: 'Bild von der Webseite Mord bei Tisch',
         headline: 'Mord bei Tisch',
         stack: 'Nuxt.js and Bulma.',
-        info: 'Website für Krimidinners von Mord bei Tisch. Bietet die möglichkeit Rollenhefte und Namenschilder herunterzuladen, sowie Rezepte auszusuchen.',
+        info: 'Website für Krimidinner von Mord bei Tisch. Bietet die möglichkeit Einladungen und Namenschilder herunterzuladen, sowie Rezepte auszusuchen.',
         href: 'https://www.mordbeitisch.de',
       },
       {
@@ -227,7 +233,7 @@ export default {
         imageAlt: 'Bild von der Webseite Seasons',
         headline: 'Seasons',
         stack: 'VanillaJS and Bulma',
-        info: 'Webseite der die nutzer:in die möglichkeit gibt 4 Termine herunter zuladen, der den anfang der 4 jahrensseiten des cyklus beinhaltet.',
+        info: 'Webseite, die Nutzer:innen die Möglichkeit gibt, die vier Abschnitte des Menstruationszyklus als Kalendereinträge herunterzuladen.',
         href: 'https://mallle.github.io/seasons',
       },
       {
@@ -235,7 +241,7 @@ export default {
         imageAlt: 'Bild von der Webseite dailys',
         headline: 'Dailys',
         stack: 'Vue.js, local storage and Bulma',
-        info: 'Webapp wo man todos und Ziele festhalten kann, sowie den Tag nach Zeitlicher Ablauf planen kann.',
+        info: 'Webapp, um Todos und Ziele festzuhalten und zur Planung des Tagesablaufes.',
         href: 'https://dailys.netlify.app',
       },
       {
@@ -243,7 +249,7 @@ export default {
         imageAlt: 'Bild von der Webseite habittracker',
         headline: 'Habitttacker',
         stack: 'Symfony 4, Doctrine, Twig and Bulma',
-        info: 'Webapp wo man eine oder mehere Habits tracken kann.',
+        info: 'Webapp, in der man Gewohnheiten tracken kann.',
         href: 'https://github.com/mallle/dailys',
       },
       {
@@ -251,7 +257,7 @@ export default {
         imageAlt: 'Bild von der Webseite PHP notes',
         headline: 'Symfony Notes',
         stack: 'VanillaJS, HTML and CSS',
-        info: 'Webseite wo ich meine notitzen zu Symfony 4 notiert habe.',
+        info: 'Webseite mit meinen Notitzen zu Symfony 4.',
         href: 'https://php-notes.netlify.app/',
       },
     ]

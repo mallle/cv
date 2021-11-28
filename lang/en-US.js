@@ -9,6 +9,12 @@ export default {
     privacy: 'Privacy Policy',
     start: 'Start'
   },
+  metadata: {
+    start: 'CV',
+    privacy: 'Privacy Policy',
+    legal: 'Legal Notice',
+    links: 'Links'
+  },
   about: {
     subtitle: 'Webdeveloper',
     location: 'Munich, Germany'
@@ -18,13 +24,13 @@ export default {
     bk: {
       toFrom: '08.2007 – 07.2009',
       what: 'Apprenticeship - Office clerk (Certifate in Danish)',
-      where: 'at Burger King® GmbH – Central Europa München',
+      where: 'at Burger King® GmbH – Central Europe München',
       info: 'Department: Development und Facility/Company Operations',
     },
     study: {
       toFrom: '10.2013 – 07.2016',
-      what: 'Human Recource Education and Mangement',
-      where: 'from the Ludwig-Maximilians-Universität in Munich',
+      what: 'Human Ressource Education and Mangement',
+      where: 'from the Ludwig-Maximilians-University in Munich',
       info: 'Bachelor\'s thesis: Compare in-house training in EU.'
     },
     ldi: {
@@ -37,31 +43,31 @@ export default {
   experience: {
     headline: 'Experience',
     fictionic: {
-      toFrom: 'Since  01.10.2020',
+      toFrom: 'Since  10.2020',
       what: 'Co-founder',
       where: 'at Fictionic UG (haftungsbeschränkt)',
-      info: 'Development of static websites with Nuxt.js. Among other things, a database for a mystery file game (soon to be launched). As well as www.storyways.app which is set up with the headless CMS Storyblok. Project management/development of the app Storyways.'
+      info: 'Website develeopement with Nuxt.js and Headless CMS Storyblok. Project management and developement of the Storyways app.'
     },
     burda: {
-      toFrom: 'Since 01.01.2021',
+      toFrom: 'Since 01.2021',
       what: 'Solution Developer',
       where: 'at Abonnenten Service Center GmbH',
       info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.'
     },
     burdaNews: {
-      toFrom: '15.07.2019 – 31.12.2020',
+      toFrom: '07.2019 – 12.2020',
       what: 'Junior Software Developer',
-      where: 'at BurdaNews GmbH.',
+      where: 'at BurdaNews GmbH',
       info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.'
     },
     innoactive : {
-      toFrom: '16.06.2018 – 14.09.2017',
+      toFrom: '06.2018 – 09.2017',
       what: 'HR Manager',
       where: 'at Innoactive GmbH',
       info: 'Establishment of processes in the area of recruiting and onboarding as well as strengthening of the employer brand.'
     },
     parcellab: {
-      toFrom: '15.08.2016 – 15.06.2017',
+      toFrom: '08.2016 – 06.2017',
       what: 'HR Manager',
       where: 'at parcelLab GmbH',
       info: 'Establishment of processes in the area of recruiting and onboarding.'
@@ -69,7 +75,7 @@ export default {
     rossmann: {
       toFrom: '10.2011 – 10.2013',
       what: 'Visual Merchandiser',
-      where: 'at Rossmann GmbH.',
+      where: 'at Rossmann GmbH',
       info: 'Marketing support for 40 stores in Bavaria.'
     },
   },
@@ -186,7 +192,7 @@ export default {
         imageAlt: 'Image of Storyways Webseite',
         headline: 'Storyways',
         stack: 'Nuxt.js, Tailwind css, Storyblok, i18n.',
-        info: 'Landingpage for Storyways. An App developed together with Fictionic UG und Tapped UG.',
+        info: 'Landingpage for Storyways.',
         href: 'https://www.storyways.app',
       },
       {
@@ -203,7 +209,7 @@ export default {
         imageAlt: 'Image of Cold Case Detectives',
         headline: 'Cold Case Detectives',
         stack: 'Nuxt.js, Tailwind, Vuex, i18n.',
-        info: 'Landingpage for Cold Case Detectives and a Database what guides you through the game.',
+        info: 'Landingpage for Cold Case Detectives, including a database that guides you through the game.',
         href: 'https://www.coldcasedetectives.de',
       },
       {
@@ -227,7 +233,7 @@ export default {
         imageAlt: 'Image of Seasons',
         headline: 'Seasons',
         stack: 'VanillaJS and Bulma',
-        info: 'Website where you can get the dates of the 4 seasons of the female cycle and download them as .ics files to your calendar',
+        info: 'Website where you can get the dates of the 4 seasons of the female cycle and download them as .ics files to your calendar.',
         href: 'https://mallle.github.io/seasons',
       },
       {
@@ -235,7 +241,7 @@ export default {
         imageAlt: 'Image of  dailys',
         headline: 'Dailys',
         stack: 'Vue.js, local storage and Bulma',
-        info: 'Webapp where you can add todos and goals, aswell as schedule your day..',
+        info: 'Webapp where you can add to-dos and goals, as well as schedule your day.',
         href: 'https://dailys.netlify.app',
       },
       {
@@ -243,7 +249,7 @@ export default {
         imageAlt: 'Image of habittracker',
         headline: 'Habitttacker',
         stack: 'Symfony 4, Doctrine, Twig and Bulma',
-        info: 'Webapp where you can track one or more habits.',
+        info: 'Webapp where you can track your habits.',
         href: 'https://github.com/mallle/dailys',
       },
       {
@@ -251,7 +257,7 @@ export default {
         imageAlt: 'Image of PHP notes',
         headline: 'Symfony Notes',
         stack: 'VanillaJS, HTML and CSS',
-        info: 'Website where I added my notices while learning Symfony 4.',
+        info: 'Website where I added my notes for Symfony 4.',
         href: 'https://php-notes.netlify.app/',
       },
     ]

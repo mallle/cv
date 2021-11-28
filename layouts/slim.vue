@@ -4,13 +4,13 @@
     <div
       class="
         bg-gradient-to-l
-        from-purple-400
-        via-pink-500
-        to-red-500
-        text-gray-100
+        from-yellow-100
+        via-blue-200
+        to-purple-300
         flex
         justify-between
         md:hidden
+        text-white
       "
     >
       <!-- logo -->
@@ -22,17 +22,31 @@
         @click.prevent="active = !active"
       >
         <svg
-          class="h-5 w-5"
+          v-if="!active"
+          class="h-5 w-8 text-blue-300"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
-          viewBox="0 0 24 24"
           stroke="currentColor"
         >
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            stroke-width="3"
             d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+        <svg
+          v-if="active"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-8 text-blue-300"
+          fill="none"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            d="M6 18L18 6M6 6l12 12"
           />
         </svg>
       </button>
@@ -43,10 +57,9 @@
       class="
         sidebar
         bg-gradient-to-b
-        from-purple-400
-        via-pink-500
-        to-red-500
-        text-blue-100
+        from-yellow-100
+        via-blue-200
+        to-purple-300
         w-64
         md:w-72
         space-y-6
@@ -94,7 +107,7 @@
               mb-8
             "
             format="webp"
-            src="/malene-2x.jpg"
+            src="/malene-illustration.png"
           />
         </a>
 

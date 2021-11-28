@@ -24,6 +24,6 @@ export default {
 
 <style scoped>
 .colored {
-  @apply text-purple-400 hover:text-pink-500;
+  @apply text-purple-400 hover:text-yellow-200;
 }
 </style>

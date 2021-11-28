@@ -45,7 +45,12 @@ export default {
   },
   head() {
     return {
-      title: this.$t('metadata.legal.title'),
+      titleTemplate: (titleChunk) => {
+        // If undefined or blank then we don't need the hyphen
+        return titleChunk
+          ? `${titleChunk} - ${this.$t('metadata.legal')}`
+          : this.$t('metadata.legal')
+      },
     }
   },
 }

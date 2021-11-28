@@ -286,9 +286,14 @@
 <script>
 export default {
   layout: 'slim',
-  head() {
+   head() {
     return {
-      title: this.$t('metadata.privacy.title'),
+      titleTemplate: (titleChunk) => {
+        // If undefined or blank then we don't need the hyphen
+        return titleChunk
+          ? `${titleChunk} - ${this.$t('metadata.privacy')}`
+          : this.$t('metadata.privacy')
+      },
     }
   },
   nuxtI18n: {
