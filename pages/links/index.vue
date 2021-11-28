@@ -28,7 +28,7 @@ export default {
       titleTemplate: (titleChunk) => {
         // If undefined or blank then we don't need the hyphen
         return titleChunk
-          ? `${titleChunk} - ${this.$t('metadata.links')}`
+          ? `${titleChunk} ${this.$t('metadata.links')}`
           : this.$t('metadata.links')
       },
     }
