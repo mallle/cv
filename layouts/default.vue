@@ -62,14 +62,15 @@
         flex flex-col
         text-center
         z-50
-        md:justify-between
+        justify-between
         min-h-screen
       "
       :class="active ? '' : '-translate-x-full'"
     >
       <div></div>
       <button
-        class="focus:outline-none flex justify-end"
+        v-if="active"
+        class="focus:outline-none flex justify-end md:hidden"
         @click.prevent="active = !active"
       >
         <svg

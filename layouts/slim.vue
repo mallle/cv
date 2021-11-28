@@ -127,7 +127,7 @@
         </nuxt-link>
       </div>
 
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row justify-center pb-8">
         <nuxt-link
           :to="{ path: localePath('privacy') }"
           class="nav-link"
