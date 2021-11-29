@@ -8,7 +8,7 @@
             v-for="(link, i) in $t('nav.default')"
             :key="i"
             :href="`${link.anchor}`"
-            class="nav-link scrollactive-item"
+            class="nav-link scrollactive-item mb-2"
             @click="active = !active"
           >
             {{ link.text }}

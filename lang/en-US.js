@@ -19,7 +19,7 @@ export default {
       },
       {
         text: 'Procjects', 
-        anchor: '#procjects',
+        anchor: '#projects',
       },
     ],
     slim: [

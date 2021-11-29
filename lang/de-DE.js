@@ -19,7 +19,7 @@ export default {
       },
       {
         text: 'Projekte', 
-        anchor: '#procjects',
+        anchor: '#projects',
       },
     ],
     slim: [
@@ -34,7 +34,7 @@ export default {
         to: 'legal-notice',
       },
       {
-        text: 'Dantenschutz', 
+        text: 'Datenschutz', 
         to: 'privacy-policy',
       },
     ]
