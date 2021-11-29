@@ -56,7 +56,7 @@ export default {
           },
           {
             href: 'https://mallle.github.io/seasons/',
-            text: 'Seasons Webapp - Get the dates for the 4 seasons of your cycle and download them as .ics files to your calendar',
+            text: 'Seasons Webapp - Get the dates for the 4 seasons of your menstrual cycle and download them as .ics files to your calendar',
           },
         ],
       },

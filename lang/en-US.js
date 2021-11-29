@@ -263,7 +263,7 @@ export default {
         imageAlt: 'Image of Seasons',
         headline: 'Seasons',
         stack: 'VanillaJS and Bulma',
-        info: 'Website where you can get the dates of the 4 seasons of the female cycle and download them as .ics files to your calendar.',
+        info: 'Website where you can get the dates of the 4 seasons of the menstrual cycle and download them as .ics files to your calendar.',
         href: 'https://mallle.github.io/seasons',
       },
       {
