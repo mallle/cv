@@ -37,6 +37,10 @@ export default {
             text: 'Cold Case Detectives - Krimispiel',
           },
           {
+            href: 'https://mordbeitisch.de',
+            text: 'MORD bei Tisch - Krimidinner',
+          },
+          {
             href: 'https://fictionic.com/de',
             text: 'Fictionic - Entertainment company',
           },
