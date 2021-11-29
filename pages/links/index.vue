@@ -54,6 +54,10 @@ export default {
             href: 'https://fictionic.com/',
             text: 'Fictionic - Entertainment company',
           },
+          {
+            href: 'https://mallle.github.io/seasons/',
+            text: 'Seasons Webapp - Get the dates for the 4 seasons of your cycle and download them as .ics files to your calendar',
+          },
         ],
       },
     }
