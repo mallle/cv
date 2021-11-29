@@ -3,11 +3,7 @@
     <Link
       v-for="(link, i) in links"
       :key="i"
-      :classes="
-        link.lang === 'de'
-          ? 'links-link links-link-de'
-          : 'links-link links-link-en'
-      "
+      :classes="link.lang === 'de' ? 'link-primary' : 'link-secondary'"
       :href="link.href"
     >
       {{ link.text }}</Link
@@ -62,16 +58,4 @@ export default {
 }
 </script>
 
-<style>
-.links-link {
-  @apply cursor-pointer break-words rounded-md p-4 my-4 text-center;
-  @apply text-white !important;
-}
-.links-link-en {
-  @apply bg-blue-200 md:hover:bg-purple-300;
-}
-
-.links-link-de {
-  @apply bg-purple-300 md:hover:bg-blue-200;
-}
-</style>
+<style></style>

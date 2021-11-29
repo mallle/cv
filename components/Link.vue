@@ -29,6 +29,15 @@ export default {
 
 <style scoped>
 .link {
-  @apply text-purple-400  hover:text-blue-200 cursor-pointer break-words;
+  @apply cursor-pointer break-words;
+  @apply rounded-md p-4 my-4 text-center;
+}
+
+.link-secondary {
+  @apply bg-blue-200 md:hover:bg-purple-300 text-white md:hover:text-white;
+}
+
+.link-primary {
+  @apply bg-purple-300 md:hover:bg-blue-200 text-white md:hover:text-white;
 }
 </style>

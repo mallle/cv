@@ -10,11 +10,17 @@
     </p>
     <div class="mt-5">
       <Link href="https://github.com/mallle"
-        ><i class="devicon-github-original text-5xl mr-8"></i
+        ><i class="devicon-github-original icon mr-8"></i
       ></Link>
       <Link href="https://www.linkedin.com/in/malene-klit/">
-        <i class="devicon-linkedin-plain text-5xl"></i>
+        <i class="devicon-linkedin-plain icon"></i>
       </Link>
     </div>
   </div>
 </template>
+
+<style scoped>
+.icon {
+  @apply text-5xl text-purple-300 md:hover:text-blue-200;
+}
+</style>

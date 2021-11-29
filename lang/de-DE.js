@@ -1,13 +1,43 @@
 export default {
-  links: {
-    about: 'Über',
-    education: 'Bildung',
-    experience: 'Erfahrungen',
-    skills: 'Kentnisse',
-    projects: 'Projekte',
-    legal: 'Impressum',
-    privacy: 'Dantenschutz',
-    start: 'Startseite'
+  nav: {
+    default: [
+      {
+        text: 'Über', 
+        anchor: '#about',
+      },
+      {
+        text: 'Bildung', 
+        anchor: '#education',
+      },
+      {
+        text: 'Erfahrungen', 
+        anchor: '#experience',
+      },
+      {
+        text: 'Kentnisse', 
+        anchor: '#skills',
+      },
+      {
+        text: 'Projekte', 
+        anchor: '#procjects',
+      },
+    ],
+    slim: [
+      {
+        text: 'Startseite', 
+        to: 'index'
+      },
+    ],
+    footer: [
+      {
+        text: 'Impressum', 
+        to: 'legal-notice',
+      },
+      {
+        text: 'Dantenschutz', 
+        to: 'privacy-policy',
+      },
+    ]
   },
   metadata: {
     start: 'CV',

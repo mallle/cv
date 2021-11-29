@@ -1,13 +1,43 @@
 export default {
-  links: {
-    about: 'About',
-    education: 'Education',
-    experience: 'Experience',
-    skills: 'Skills',
-    projects: 'Procjects',
-    legal: 'Legal Notice',
-    privacy: 'Privacy Policy',
-    start: 'Start'
+  nav: {
+    default: [
+      {
+        text: 'About', 
+        anchor: '#about',
+      },
+      {
+        text: 'Education', 
+        anchor: '#education',
+      },
+      {
+        text: 'Experience', 
+        anchor: '#experience',
+      },
+      {
+        text: 'Skills', 
+        anchor: '#skills',
+      },
+      {
+        text: 'Procjects', 
+        anchor: '#procjects',
+      },
+    ],
+    slim: [
+      {
+        text: 'Start', 
+        to: 'index'
+      },
+    ],
+    footer: [
+      {
+        text: 'Legal Notice', 
+        to: 'legal-notice',
+      },
+      {
+        text: 'Privacy Policy', 
+        to: 'privacy-policy',
+      },
+    ]
   },
   metadata: {
     start: 'CV',
