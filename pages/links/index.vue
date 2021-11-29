@@ -28,7 +28,7 @@ export default {
           lang: 'en',
         },
         {
-          href: 'https://coldcasedetectices.de',
+          href: 'https://coldcasedetectives.de',
           text: 'Cold Case Detectives - Krimispiel (DE)',
           lang: 'de',
         },
