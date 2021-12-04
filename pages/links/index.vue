@@ -55,12 +55,12 @@ export default {
             text: 'Fictionic - Entertainment company',
           },
           {
-            href: 'https://mallle.github.io/seasons/',
-            text: 'Seasons Webapp - Get the dates for the 4 seasons of your menstrual cycle and download them as .ics files to your calendar',
-          },
-          {
             href: 'https://github.com/mallle/100-days-of-code',
             text: '100 days of code log - learning Flutter and Dart',
+          },
+          {
+            href: 'https://mallle.github.io/seasons/',
+            text: 'Seasons Webapp - Get the dates for the 4 seasons of your menstrual cycle and download them as .ics files to your calendar',
           },
         ],
       },
