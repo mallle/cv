@@ -13,8 +13,6 @@
           {{ link.text }}
         </nuxt-link>
       </template>
-
-      >
     </Navigation>
     <!-- content -->
     <div class="flex-1 md:ml-72">

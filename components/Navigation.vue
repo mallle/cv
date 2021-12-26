@@ -89,8 +89,8 @@
         </button>
       </div>
       <div>
-        <a
-          href="#about"
+        <nuxt-link
+          to="/"
           class="
             text-white
             flex flex-col
@@ -113,7 +113,7 @@
             format="webp"
             src="/malene-illustration.png"
           />
-        </a>
+        </nuxt-link>
         <!-- links -->
         <slot :toogleSidebar="toogleSidebar"></slot>
       </div>

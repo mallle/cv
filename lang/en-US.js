@@ -291,4 +291,9 @@ export default {
       },
     ],
   },
+  error: {
+    headline: 'OOPS!',
+    subtitle: 'Page was not found.',
+    button: 'Back to Start',
+  },
 }

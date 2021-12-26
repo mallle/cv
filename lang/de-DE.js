@@ -292,4 +292,9 @@ export default {
       },
     ],
   },
+  error: {
+    headline: 'UPS!',
+    subtitle: 'Diese Seite konnte nicht<br />gefunden werden.',
+    button: 'Zurück zur Startseite',
+  },
 }
