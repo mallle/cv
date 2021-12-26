@@ -2,52 +2,52 @@ export default {
   nav: {
     default: [
       {
-        text: 'About', 
+        text: 'About',
         anchor: '#about',
       },
       {
-        text: 'Education', 
+        text: 'Education',
         anchor: '#education',
       },
       {
-        text: 'Experience', 
+        text: 'Experience',
         anchor: '#experience',
       },
       {
-        text: 'Skills', 
+        text: 'Skills',
         anchor: '#skills',
       },
       {
-        text: 'Procjects', 
+        text: 'Procjects',
         anchor: '#projects',
       },
     ],
     slim: [
       {
-        text: 'Start', 
-        to: 'index'
+        text: 'Start',
+        to: 'index',
       },
     ],
     footer: [
       {
-        text: 'Legal Notice', 
+        text: 'Legal Notice',
         to: 'legal-notice',
       },
       {
-        text: 'Privacy Policy', 
-        to: 'privacy-policy',
+        text: 'Privacy Policy',
+        to: 'privacy',
       },
-    ]
+    ],
   },
   metadata: {
     start: 'CV',
     privacy: 'Privacy Policy',
     legal: 'Legal Notice',
-    links: 'Links'
+    links: 'Links',
   },
   about: {
     subtitle: 'Webdeveloper',
-    location: 'Munich, Germany'
+    location: 'Munich, Germany',
   },
   education: {
     headline: 'Education',
@@ -61,14 +61,14 @@ export default {
       toFrom: '10.2013 – 07.2016',
       what: 'Human Ressource Education and Mangement',
       where: 'from the Ludwig-Maximilians-University in Munich',
-      info: 'Bachelor\'s thesis: Compare in-house training in EU.'
+      info: "Bachelor's thesis: Compare in-house training in EU.",
     },
     ldi: {
       toFrom: '09.2017 – 07.2019',
       what: 'Apprenticeship as Application Developer',
       where: 'at LINKS DER ISAR GmbH',
-      info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j'
-    }
+      info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j',
+    },
   },
   experience: {
     headline: 'Experience',
@@ -76,37 +76,37 @@ export default {
       toFrom: 'Since  10.2020',
       what: 'Co-founder',
       where: 'at Fictionic UG (haftungsbeschränkt)',
-      info: 'Website develeopement with Nuxt.js and Headless CMS Storyblok. Project management and developement of the Storyways app.'
+      info: 'Website develeopement with Nuxt.js and Headless CMS Storyblok. Project management and developement of the Storyways app.',
     },
     burda: {
       toFrom: 'Since 01.2021',
       what: 'Solution Developer',
       where: 'at Abonnenten Service Center GmbH',
-      info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.'
+      info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.',
     },
     burdaNews: {
       toFrom: '07.2019 – 12.2020',
       what: 'Junior Software Developer',
       where: 'at BurdaNews GmbH',
-      info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.'
+      info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.',
     },
-    innoactive : {
+    innoactive: {
       toFrom: '06.2018 – 09.2017',
       what: 'HR Manager',
       where: 'at Innoactive GmbH',
-      info: 'Establishment of processes in the area of recruiting and onboarding as well as strengthening of the employer brand.'
+      info: 'Establishment of processes in the area of recruiting and onboarding as well as strengthening of the employer brand.',
     },
     parcellab: {
       toFrom: '08.2016 – 06.2017',
       what: 'HR Manager',
       where: 'at parcelLab GmbH',
-      info: 'Establishment of processes in the area of recruiting and onboarding.'
+      info: 'Establishment of processes in the area of recruiting and onboarding.',
     },
     rossmann: {
       toFrom: '10.2011 – 10.2013',
       what: 'Visual Merchandiser',
       where: 'at Rossmann GmbH',
-      info: 'Marketing support for 40 stores in Bavaria.'
+      info: 'Marketing support for 40 stores in Bavaria.',
     },
   },
   skills: {
@@ -115,108 +115,108 @@ export default {
     devIcons: [
       {
         icon: 'devicon-javascript-plain',
-        description: 'Javascript'
+        description: 'Javascript',
       },
       {
         icon: 'devicon-php-plain',
-        description: 'PHP'
+        description: 'PHP',
       },
       {
         icon: 'devicon-mysql-plain',
-        description: 'SQL'
+        description: 'SQL',
       },
       {
         icon: 'devicon-html5-plain',
-        description: 'HTML 5'
+        description: 'HTML 5',
       },
       {
         icon: 'devicon-css3-plain',
-        description: 'CSS/SCSS'
+        description: 'CSS/SCSS',
       },
       {
         icon: 'devicon-dart-plain',
-        description: 'Dart'
+        description: 'Dart',
       },
     ],
     frameworks: 'Frameworks',
     frameworkIcons: [
       {
         icon: 'devicon-vuejs-plain',
-        description: 'Vue.js'
+        description: 'Vue.js',
       },
       {
         icon: 'devicon-nuxtjs-plain',
-        description: 'Nuxt.js'
+        description: 'Nuxt.js',
       },
       {
         icon: 'devicon-symfony-plain',
-        description: 'Symfony'
+        description: 'Symfony',
       },
       {
         icon: 'devicon-laravel-plain',
-        description: 'Laravel'
+        description: 'Laravel',
       },
       {
         icon: 'devicon-twig-plain',
-        description: 'Twig'
+        description: 'Twig',
       },
       {
         icon: 'devicon-doctrine-plain',
-        description: 'Doctrine'
+        description: 'Doctrine',
       },
       {
         icon: 'devicon-bootstrap-plain',
-        description: 'Bootstrap'
+        description: 'Bootstrap',
       },
       {
         icon: 'devicon-tailwindcss-plain',
-        description: 'Tailwind'
+        description: 'Tailwind',
       },
       {
         icon: 'devicon-bulma-plain',
-        description: 'Bulma'
+        description: 'Bulma',
       },
       {
         icon: 'devicon-flutter-plain',
-        description: 'flutter'
+        description: 'flutter',
       },
     ],
     tools: 'Tools',
-    toolsIcons: [     
+    toolsIcons: [
       {
         icon: 'devicon-github-plain',
-        description: 'Github'
+        description: 'Github',
       },
       {
         icon: 'devicon-figma-plain',
-        description: 'Figma'
+        description: 'Figma',
       },
       {
         icon: 'devicon-vscode-plain',
-        description: 'VS Code'
+        description: 'VS Code',
       },
       {
         icon: 'devicon-phpstorm-plain',
-        description: 'PHP Storm'
+        description: 'PHP Storm',
       },
       {
         icon: 'devicon-jamstack-original',
-        description: 'Jamstack'
+        description: 'Jamstack',
       },
       {
         icon: 'devicon-filezilla-plain',
-        description: 'FileZilla'
+        description: 'FileZilla',
       },
       {
         icon: 'devicon-netlify-plain',
-        description: 'Netlify'
+        description: 'Netlify',
       },
     ],
   },
   projects: {
     headline: 'Projects',
     linkToProject: 'Go to Webseite',
-    items: [ 
+    items: [
       {
         image: '/projects/storyways.png',
         imageAlt: 'Image of Storyways Webseite',
@@ -232,7 +232,6 @@ export default {
         stack: 'Nuxt/Content.',
         info: 'Documentation for writers of Storyways.',
         href: 'https://wiki.storyways.app',
-
       },
       {
         image: '/projects/ccd.png',
@@ -290,6 +289,6 @@ export default {
         info: 'Website where I added my notes for Symfony 4.',
         href: 'https://php-notes.netlify.app/',
       },
-    ]
-  }
+    ],
+  },
 }

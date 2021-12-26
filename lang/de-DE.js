@@ -2,73 +2,73 @@ export default {
   nav: {
     default: [
       {
-        text: 'Über', 
+        text: 'Über',
         anchor: '#about',
       },
       {
-        text: 'Bildung', 
+        text: 'Bildung',
         anchor: '#education',
       },
       {
-        text: 'Erfahrungen', 
+        text: 'Erfahrungen',
         anchor: '#experience',
       },
       {
-        text: 'Kentnisse', 
+        text: 'Kentnisse',
         anchor: '#skills',
       },
       {
-        text: 'Projekte', 
+        text: 'Projekte',
         anchor: '#projects',
       },
     ],
     slim: [
       {
-        text: 'Startseite', 
-        to: 'index'
+        text: 'Startseite',
+        to: 'index',
       },
     ],
     footer: [
       {
-        text: 'Impressum', 
+        text: 'Impressum',
         to: 'legal-notice',
       },
       {
-        text: 'Datenschutz', 
-        to: 'privacy-policy',
+        text: 'Datenschutz',
+        to: 'privacy',
       },
-    ]
+    ],
   },
   metadata: {
     start: 'CV',
     privacy: 'Datenschutz',
     legal: 'Impressum',
-    links: 'Links'
+    links: 'Links',
   },
   about: {
     subtitle: 'Webdeveloper',
-    location: 'München, Deutschland'
+    location: 'München, Deutschland',
   },
   education: {
     headline: 'Bildung',
     bk: {
       toFrom: 'August 2007 – Juli 2009',
       what: 'Ausbildung zur Bürokauffrau (Dänisches Zeugnis)',
-      where:  'Burger King® GmbH – Central Europe München',
+      where: 'Burger King® GmbH – Central Europe München',
       info: 'Abteilung: Development und Facility/Company Operations.',
     },
     study: {
       toFrom: 'Okotber 2013 – Juli 2016',
       what: 'B.Sc. Wirtschaftspädagogik I',
       where: 'an der Ludwig-Maximilians-Universität in München',
-      info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich.'
+      info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich.',
     },
     ldi: {
       toFrom: 'September 2017 – Juli 2019',
       what: 'Ausbildung zur Fachinformatikerin als Anwendungsentwicklerin',
       where: 'bei LINKS DER ISAR GmbH',
-      info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.'
-    }
+      info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.',
+    },
   },
   experience: {
     headline: 'Erfahrungen',
@@ -76,37 +76,38 @@ export default {
       toFrom: 'Seit  Oktober 2020',
       what: 'Mitgründerin',
       where: 'von Fictionic UG (haftungsbeschränkt)',
-      info: 'Entwicklung von Webseiten mit Nuxt.js mit Einbindung vom Headless CMS Storyblok. Projektmanagement/Entwicklung der Storyways App.'
+      info: 'Entwicklung von Webseiten mit Nuxt.js mit Einbindung vom Headless CMS Storyblok. Projektmanagement/Entwicklung der Storyways App.',
     },
     burda: {
       toFrom: 'Seit Januar 2021',
       what: 'Solution Developer',
-      where: 'bei Abonnenten Service Center GmbH (Ausgelöst durch Umstrukturierungen im Unternehmen)',
-      info: 'Entwicklung und Betreuung von internen Web-Apps mit Symfony 4/5, JQuery und Bootsrap.'
+      where:
+        'bei Abonnenten Service Center GmbH (Ausgelöst durch Umstrukturierungen im Unternehmen)',
+      info: 'Entwicklung und Betreuung von internen Web-Apps mit Symfony 4/5, JQuery und Bootsrap.',
     },
     burdaNews: {
       toFrom: 'Juli 2019 – Dezember 2020',
       what: 'Junior Software Developer',
       where: 'bei BurdaNews GmbH',
-      info: 'Entwicklung von internen Web-Apps mit Symfony 4, JQuery und Bootsrap.'
+      info: 'Entwicklung von internen Web-Apps mit Symfony 4, JQuery und Bootsrap.',
     },
-    innoactive : {
+    innoactive: {
       toFrom: 'Juli 2017 – September 2017',
       what: 'HR Manager',
       where: 'bei Innoactive GmbH',
-      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding sowie Stärkung des Employer Branding.'
+      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding sowie Stärkung des Employer Branding.',
     },
     parcellab: {
       toFrom: 'August 2016 – Juni 2017',
       what: 'HR Manager',
       where: 'parcelLab GmbH',
-      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding.'
+      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding.',
     },
     rossmann: {
       toFrom: 'Oktober 2011 – Oktober 2013',
       what: 'Visual Merchandiser',
       where: 'im Außendienst bei Rossmann GmbH.',
-      info: 'Betreuung im Bereich Marketing von 40 Läden in Bayern.'
+      info: 'Betreuung im Bereich Marketing von 40 Läden in Bayern.',
     },
   },
   skills: {
@@ -115,108 +116,108 @@ export default {
     devIcons: [
       {
         icon: 'devicon-javascript-plain',
-        description: 'Javascript'
+        description: 'Javascript',
       },
       {
         icon: 'devicon-php-plain',
-        description: 'PHP'
+        description: 'PHP',
       },
       {
         icon: 'devicon-mysql-plain',
-        description: 'SQL'
+        description: 'SQL',
       },
       {
         icon: 'devicon-html5-plain',
-        description: 'HTML 5'
+        description: 'HTML 5',
       },
       {
         icon: 'devicon-css3-plain',
-        description: 'CSS/SCSS'
+        description: 'CSS/SCSS',
       },
       {
         icon: 'devicon-dart-plain',
-        description: 'Dart'
+        description: 'Dart',
       },
     ],
     frameworks: 'Frameworks',
     frameworkIcons: [
       {
         icon: 'devicon-vuejs-plain',
-        description: 'Vue.js'
+        description: 'Vue.js',
       },
       {
         icon: 'devicon-nuxtjs-plain',
-        description: 'Nuxt.js'
+        description: 'Nuxt.js',
       },
       {
         icon: 'devicon-symfony-plain',
-        description: 'Symfony'
+        description: 'Symfony',
       },
       {
         icon: 'devicon-laravel-plain',
-        description: 'Laravel'
+        description: 'Laravel',
       },
       {
         icon: 'devicon-twig-plain',
-        description: 'Twig'
+        description: 'Twig',
       },
       {
         icon: 'devicon-doctrine-plain',
-        description: 'Doctrine'
+        description: 'Doctrine',
       },
       {
         icon: 'devicon-bootstrap-plain',
-        description: 'Bootstrap'
+        description: 'Bootstrap',
       },
       {
         icon: 'devicon-tailwindcss-plain',
-        description: 'Tailwind'
+        description: 'Tailwind',
       },
       {
         icon: 'devicon-bulma-plain',
-        description: 'Bulma'
+        description: 'Bulma',
       },
       {
         icon: 'devicon-flutter-plain',
-        description: 'flutter'
+        description: 'flutter',
       },
     ],
     tools: 'Tools',
-    toolsIcons: [     
+    toolsIcons: [
       {
         icon: 'devicon-github-plain',
-        description: 'Github'
+        description: 'Github',
       },
       {
         icon: 'devicon-figma-plain',
-        description: 'Figma'
+        description: 'Figma',
       },
       {
         icon: 'devicon-vscode-plain',
-        description: 'VS Code'
+        description: 'VS Code',
       },
       {
         icon: 'devicon-phpstorm-plain',
-        description: 'PHP Storm'
+        description: 'PHP Storm',
       },
       {
         icon: 'devicon-jamstack-original',
-        description: 'Jamstack'
+        description: 'Jamstack',
       },
       {
         icon: 'devicon-filezilla-plain',
-        description: 'FileZilla'
+        description: 'FileZilla',
       },
       {
         icon: 'devicon-netlify-plain',
-        description: 'Netlify'
+        description: 'Netlify',
       },
     ],
   },
   projects: {
     headline: 'Projekte',
     linkToProject: 'Besuche Webseite',
-    items: [ 
+    items: [
       {
         image: '/projects/storyways.png',
         imageAlt: 'Bild von der Webseite Storyways',
@@ -232,7 +233,6 @@ export default {
         stack: 'Nuxt/Content.',
         info: 'Dokumentation für Autor:innen, die Geschichten für Storyways verfassen.',
         href: 'https://wiki.storyways.app',
-
       },
       {
         image: '/projects/ccd.png',
@@ -290,6 +290,6 @@ export default {
         info: 'Webseite mit meinen Notitzen zu Symfony 4.',
         href: 'https://php-notes.netlify.app/',
       },
-    ]
-  }
+    ],
+  },
 }

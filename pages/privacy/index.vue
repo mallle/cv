@@ -286,7 +286,7 @@
 <script>
 export default {
   layout: 'slim',
-   head() {
+  head() {
     return {
       titleTemplate: (titleChunk) => {
         // If undefined or blank then we don't need the hyphen

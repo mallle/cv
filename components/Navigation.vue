@@ -115,7 +115,7 @@
           />
         </a>
         <!-- links -->
-        <slot name="links"></slot>
+        <slot :toogleSidebar="toogleSidebar"></slot>
       </div>
       <div class="pb-8 md:pb-0">
         <slot name="langswitch"></slot>
@@ -126,7 +126,7 @@
             :key="i"
             :to="{ path: localePath(link.to) }"
             class="nav-link"
-            @click="active = !active"
+            @click="toogleSidebar()"
           >
             {{ link.text }}
           </nuxt-link>
@@ -142,6 +142,11 @@ export default {
     return {
       active: false,
     }
+  },
+  methods: {
+    toogleSidebar() {
+      this.active = !this.active
+    },
   },
 }
 </script>

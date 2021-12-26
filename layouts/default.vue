@@ -2,14 +2,14 @@
   <div class="relative min-h-screen md:flex">
     <Navigation>
       <!-- nav -->
-      <template #links>
+      <template #default="{ toogleSidebar }">
         <scrollactive class="my-nav" active-class="active">
           <a
             v-for="(link, i) in $t('nav.default')"
             :key="i"
             :href="`${link.anchor}`"
             class="nav-link scrollactive-item mb-2"
-            @click="active = !active"
+            @click="toogleSidebar"
           >
             {{ link.text }}
           </a>
@@ -28,16 +28,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      active: false,
-    }
-  },
-}
-</script>
 
 <style>
 body {
