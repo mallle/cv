@@ -51,64 +51,76 @@ export default {
   },
   education: {
     headline: 'Bildung',
-    bk: {
-      toFrom: 'August 2007 – Juli 2009',
-      what: 'Ausbildung zur Bürokauffrau (Dänisches Zeugnis)',
-      where: 'Burger King® GmbH – Central Europe München',
-      info: 'Abteilung: Development und Facility/Company Operations.',
-    },
-    study: {
-      toFrom: 'Okotber 2013 – Juli 2016',
-      what: 'B.Sc. Wirtschaftspädagogik I',
-      where: 'an der Ludwig-Maximilians-Universität in München',
-      info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich.',
-    },
-    ldi: {
-      toFrom: 'September 2017 – Juli 2019',
-      what: 'Ausbildung zur Fachinformatikerin als Anwendungsentwicklerin',
-      where: 'bei LINKS DER ISAR GmbH',
-      info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.',
-    },
+    info: [
+      {
+        toFrom: 'August 2007 – Juli 2009',
+        what: 'Ausbildung zur Bürokauffrau (Dänisches Zeugnis)',
+        where: 'Burger King® GmbH – Central Europe München',
+        info: 'Abteilung: Development und Facility/Company Operations.',
+      },
+      {
+        toFrom: 'Okotber 2013 – Juli 2016',
+        what: 'B.Sc. Wirtschaftspädagogik I',
+        where: 'an der Ludwig-Maximilians-Universität in München',
+        info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich.',
+      },
+      {
+        toFrom: 'September 2017 – Juli 2019',
+        what: 'Ausbildung zur Fachinformatikerin als Anwendungsentwicklerin',
+        where: 'bei LINKS DER ISAR GmbH',
+        info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.',
+      },
+    ]
   },
   experience: {
     headline: 'Erfahrungen',
-    fictionic: {
-      toFrom: 'Seit  Oktober 2020',
-      what: 'Mitgründerin',
-      where: 'von Fictionic UG (haftungsbeschränkt)',
-      info: 'Entwicklung von Webseiten mit Nuxt.js mit Einbindung vom Headless CMS Storyblok. Projektmanagement/Entwicklung der Storyways App.',
-    },
-    burda: {
-      toFrom: 'Seit Januar 2021',
-      what: 'Solution Developer',
-      where:
-        'bei Abonnenten Service Center GmbH (Ausgelöst durch Umstrukturierungen im Unternehmen)',
-      info: 'Entwicklung und Betreuung von internen Web-Apps mit Symfony 4/5, JQuery und Bootsrap.',
-    },
-    burdaNews: {
-      toFrom: 'Juli 2019 – Dezember 2020',
-      what: 'Junior Software Developer',
-      where: 'bei BurdaNews GmbH',
-      info: 'Entwicklung von internen Web-Apps mit Symfony 4, JQuery und Bootsrap.',
-    },
-    innoactive: {
-      toFrom: 'Juli 2017 – September 2017',
-      what: 'HR Manager',
-      where: 'bei Innoactive GmbH',
-      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding sowie Stärkung des Employer Branding.',
-    },
-    parcellab: {
-      toFrom: 'August 2016 – Juni 2017',
-      what: 'HR Manager',
-      where: 'parcelLab GmbH',
-      info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding.',
-    },
-    rossmann: {
-      toFrom: 'Oktober 2011 – Oktober 2013',
-      what: 'Visual Merchandiser',
-      where: 'im Außendienst bei Rossmann GmbH.',
-      info: 'Betreuung im Bereich Marketing von 40 Läden in Bayern.',
-    },
+    info: [ 
+      {
+        toFrom: 'Seit März 2021',
+        what: 'Mobile Developer',
+        where:
+          'bei Tapped UG',
+        info: 'Entwicklung von Apps mit Dart und Flutter.',
+      },
+      {
+        toFrom: 'Seit  Oktober 2020',
+        what: 'Mitgründerin',
+        where: 'von Fictionic UG (haftungsbeschränkt)',
+        info: 'Entwicklung von Webseiten mit Nuxt.js mit Einbindung vom Headless CMS Storyblok. Projektmanagement/Entwicklung der Storyways App.',
+      },
+      
+      {
+        toFrom: 'Seit Januar 2021 - Februar 2022',
+        what: 'Solution Developer',
+        where:
+          'bei Abonnenten Service Center GmbH (Ausgelöst durch Umstrukturierungen im Unternehmen)',
+        info: 'Entwicklung und Betreuung von internen Web-Apps mit Symfony 4/5, JQuery und Bootsrap.',
+      },
+      {
+        toFrom: 'Juli 2019 – Dezember 2020',
+        what: 'Junior Software Developer',
+        where: 'bei BurdaNews GmbH',
+        info: 'Entwicklung von internen Web-Apps mit Symfony 4, JQuery und Bootsrap.',
+      },
+      {
+        toFrom: 'Juli 2017 – September 2017',
+        what: 'HR Manager',
+        where: 'bei Innoactive GmbH',
+        info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding sowie Stärkung des Employer Branding.',
+      },
+      {
+        toFrom: 'August 2016 – Juni 2017',
+        what: 'HR Manager',
+        where: 'parcelLab GmbH',
+        info: 'Aufbau von Prozessen im Bereich Recruiting und Onboarding.',
+      },
+      {
+        toFrom: 'Oktober 2011 – Oktober 2013',
+        what: 'Visual Merchandiser',
+        where: 'im Außendienst bei Rossmann GmbH.',
+        info: 'Betreuung im Bereich Marketing von 40 Läden in Bayern.',
+      },
+    ],
   },
   skills: {
     headline: 'Kentnisse',

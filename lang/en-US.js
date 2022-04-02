@@ -51,63 +51,74 @@ export default {
   },
   education: {
     headline: 'Education',
-    bk: {
-      toFrom: '08.2007 – 07.2009',
-      what: 'Apprenticeship - Office clerk (Certifate in Danish)',
-      where: 'at Burger King® GmbH – Central Europe München',
-      info: 'Department: Development und Facility/Company Operations',
-    },
-    study: {
-      toFrom: '10.2013 – 07.2016',
-      what: 'Human Ressource Education and Mangement',
-      where: 'from the Ludwig-Maximilians-University in Munich',
-      info: "Bachelor's thesis: Compare in-house training in EU.",
-    },
-    ldi: {
-      toFrom: '09.2017 – 07.2019',
-      what: 'Apprenticeship as Application Developer',
-      where: 'at LINKS DER ISAR GmbH',
-      info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j',
-    },
+    info: [ 
+      {
+        toFrom: '08.2007 – 07.2009',
+        what: 'Apprenticeship - Office clerk (Certifate in Danish)',
+        where: 'at Burger King® GmbH – Central Europe München',
+        info: 'Department: Development und Facility/Company Operations',
+      },
+      {
+        toFrom: '10.2013 – 07.2016',
+        what: 'Human Ressource Education and Mangement',
+        where: 'from the Ludwig-Maximilians-University in Munich',
+        info: "Bachelor's thesis: Compare in-house training in EU.",
+      },
+      {
+        toFrom: '09.2017 – 07.2019',
+        what: 'Apprenticeship as Application Developer',
+        where: 'at LINKS DER ISAR GmbH',
+        info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j',
+      }
+    ],
   },
   experience: {
     headline: 'Experience',
-    fictionic: {
-      toFrom: 'Since  10.2020',
-      what: 'Co-founder',
-      where: 'at Fictionic UG (haftungsbeschränkt)',
-      info: 'Website develeopement with Nuxt.js and Headless CMS Storyblok. Project management and developement of the Storyways app.',
-    },
-    burda: {
-      toFrom: 'Since 01.2021',
-      what: 'Solution Developer',
-      where: 'at Abonnenten Service Center GmbH',
-      info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.',
-    },
-    burdaNews: {
-      toFrom: '07.2019 – 12.2020',
-      what: 'Junior Software Developer',
-      where: 'at BurdaNews GmbH',
-      info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.',
-    },
-    innoactive: {
-      toFrom: '06.2018 – 09.2017',
-      what: 'HR Manager',
-      where: 'at Innoactive GmbH',
-      info: 'Establishment of processes in the area of recruiting and onboarding as well as strengthening of the employer brand.',
-    },
-    parcellab: {
-      toFrom: '08.2016 – 06.2017',
-      what: 'HR Manager',
-      where: 'at parcelLab GmbH',
-      info: 'Establishment of processes in the area of recruiting and onboarding.',
-    },
-    rossmann: {
-      toFrom: '10.2011 – 10.2013',
-      what: 'Visual Merchandiser',
-      where: 'at Rossmann GmbH',
-      info: 'Marketing support for 40 stores in Bavaria.',
-    },
+    info: [ 
+      {
+        toFrom: 'Since 03.2022',
+        what: 'Mobile Developer',
+        where:
+          'at Tapped UG',
+        info: 'App development with Dart und Flutter.',
+      },
+      {
+        toFrom: 'Since 10.2020',
+        what: 'Co-founder',
+        where: 'at Fictionic UG (haftungsbeschränkt)',
+        info: 'Website develeopement with Nuxt.js and Headless CMS Storyblok. Project management and developement of the Storyways app.',
+      },
+      {
+        toFrom: '01.2021 - 02.2022',
+        what: 'Solution Developer',
+        where: 'at Abonnenten Service Center GmbH',
+        info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.',
+      },
+      {
+        toFrom: '07.2019 – 12.2020',
+        what: 'Junior Software Developer',
+        where: 'at BurdaNews GmbH',
+        info: 'Development and support of internal web apps with Symfony 4/5, JQuery and Bootsrap.',
+      },
+      {
+        toFrom: '06.2018 – 09.2017',
+        what: 'HR Manager',
+        where: 'at Innoactive GmbH',
+        info: 'Establishment of processes in the area of recruiting and onboarding as well as strengthening of the employer brand.',
+      },
+      {
+        toFrom: '08.2016 – 06.2017',
+        what: 'HR Manager',
+        where: 'at parcelLab GmbH',
+        info: 'Establishment of processes in the area of recruiting and onboarding.',
+      },
+      {
+        toFrom: '10.2011 – 10.2013',
+        what: 'Visual Merchandiser',
+        where: 'at Rossmann GmbH',
+        info: 'Marketing support for 40 stores in Bavaria.',
+      },
+    ]
   },
   skills: {
     headline: 'Skills',
