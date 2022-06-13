@@ -46,7 +46,7 @@ export default {
     links: 'Links',
   },
   about: {
-    subtitle: 'Webdeveloper',
+    subtitle: 'Mobile-/Webdeveloper',
     location: 'Munich, Germany',
   },
   education: {
