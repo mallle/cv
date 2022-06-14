@@ -253,9 +253,8 @@ We get this error because we try to call <code>setState()</code> on a previously
 But be aware! we might not see this error if our <code>\_listner()</code> function looked like this:
 
 ```dart
-  void _listener() {
-    print("Hi");
-  }
+void _listener() {
+  print("Hi");
 }
 ```
 
