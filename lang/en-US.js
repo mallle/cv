@@ -21,6 +21,10 @@ export default {
         text: 'Procjects',
         anchor: '#projects',
       },
+      {
+        text: 'Blog',
+        to: 'blog'
+      },
     ],
     slim: [
       {

@@ -4,15 +4,27 @@
       <!-- nav -->
       <template #default="{ toogleSidebar }">
         <scrollactive class="my-nav" active-class="active">
-          <a
-            v-for="(link, i) in $t('nav.default')"
-            :key="i"
-            :href="`${link.anchor}`"
-            class="nav-link scrollactive-item mb-2"
-            @click="toogleSidebar"
-          >
-            {{ link.text }}
-          </a>
+          <template v-for="(link, i) in $t('nav.default')">
+            <a
+              v-if="link.anchor"
+              :key="i"
+              :href="`${link.anchor}`"
+              class="nav-link scrollactive-item mb-2"
+              @click="toogleSidebar"
+            >
+              {{ link.text }}
+            </a>
+
+            <nuxt-link
+              v-else
+              :key="i"
+              :to="{ path: localePath(link.to) }"
+              class="nav-link"
+              @click="toogleSidebar()"
+            >
+              {{ link.text }}
+            </nuxt-link>
+          </template>
         </scrollactive>
       </template>
 
@@ -29,13 +41,18 @@
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 body {
   @apply font-sans;
 }
 
 h1 {
   @apply text-4xl md:text-7xl font-bold pb-3 uppercase tracking-widest font-mono;
+}
+
+h2 {
+  @apply text-2xl md:text-3xl font-bold pb-3 pt-12 font-mono;
+  display: inline-block;
 }
 
 h3 {
@@ -47,6 +64,13 @@ h3:after {
   content: '\A';
   @apply bg-gradient-to-r from-yellow-100 via-blue-200 to-purple-300 h-2 w-4;
   @apply flex h-1 w-64;
+}
+
+h2:after {
+  content: '\A';
+  @apply bg-gradient-to-r from-yellow-100 via-blue-200 to-purple-300 h-2 w-4;
+  @apply flex h-1;
+  width: 70%;
 }
 
 h4 {
@@ -62,5 +86,9 @@ h4 {
 
 .cv-section {
   @apply min-h-screen px-4 py-6 md:p-8 max-w-6xl mx-auto flex flex-col justify-center;
+}
+
+.section {
+  @apply px-4 py-6 md:p-8 max-w-6xl mx-auto;
 }
 </style>
