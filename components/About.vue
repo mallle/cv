@@ -19,7 +19,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="postcss" scoped>
 .icon {
   @apply text-5xl text-purple-300 md:hover:text-blue-200;
 }

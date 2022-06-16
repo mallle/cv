@@ -1,5 +1,5 @@
 <template>
-  <section class="cv-section">
+  <section class="section">
     <h1>Datenschutz&shy;erklärung</h1>
     <br />
     <br />
