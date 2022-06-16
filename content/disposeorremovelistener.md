@@ -271,4 +271,4 @@ So to wrap up. The widget that instantiates a class where we can add a listener 
 <h4 class="text-center italic">Widget that inizialize calls .dispose(), widget that recieve calls .removeListener().</h4>
 
 <br>
-I hope you had fun reading this tutorial. If you have any comments feel free to message me - have a fantastic day :)
+A big thank you to <a class="link" href="https://twitter.com/JulianLenz_" target="_blank">Julian</a> for showing me how this works. I hope you had fun reading this tutorial. If you have any comments feel free to message me - have a fantastic day :)

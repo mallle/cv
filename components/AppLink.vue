@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss" scoped>
 .link {
   @apply cursor-pointer break-words;
   @apply rounded-md p-4 my-4 text-center;

@@ -54,9 +54,10 @@
     <p>
       Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit
       Anschrift finden Sie unter:
-      <Link
+      <a
+        class="link"
         href="https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html"
-        >https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html</Link
+        >https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html</a
       >.
     </p>
     <p></p>
@@ -136,35 +137,40 @@
     <ul>
       <li>
         Mozilla Firefox:
-        <Link
+        <a
+          class="link"
           href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
-          >https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</Link
+          >https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
         >
       </li>
       <li>
         Internet Explorer:
-        <Link
+        <a
+          class="link"
           href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
-          >https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</Link
+          >https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
         >
       </li>
       <li>
         Google Chrome:
-        <Link href="https://support.google.com/accounts/answer/61416?hl=de"
-          >https://support.google.com/accounts/answer/61416?hl=de</Link
+        <a
+          class="link"
+          href="https://support.google.com/accounts/answer/61416?hl=de"
+          >https://support.google.com/accounts/answer/61416?hl=de</a
         >
       </li>
       <li>
         Opera:
-        <Link href="http://www.opera.com/de/help"
-          >http://www.opera.com/de/help</Link
+        <a class="link" href="http://www.opera.com/de/help"
+          >http://www.opera.com/de/help</a
         >
       </li>
       <li>
         Safari:
-        <Link
+        <a
+          class="link"
           href="https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE"
-          >https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE</Link
+          >https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE</a
         >
       </li>
     </ul>
@@ -273,9 +279,10 @@
       <em
         >Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den
         Experten für
-        <Link
+        <a
+          class="link"
           href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/"
-          >externe Datenschutzbeauftragte</Link
+          >externe Datenschutzbeauftragte</a
         >
         (Version #2020-09-30).</em
       >

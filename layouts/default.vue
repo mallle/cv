@@ -80,6 +80,7 @@ h4 {
 .nav-link {
   @apply block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-400 text-white cursor-pointer;
 }
+
 .nav-link.active {
   @apply bg-purple-400 cursor-pointer;
 }
@@ -90,5 +91,13 @@ h4 {
 
 .section {
   @apply px-4 py-6 md:p-8 max-w-6xl mx-auto;
+}
+
+.section a.link {
+  @apply underline;
+}
+
+.section a.link:hover {
+  @apply text-purple-400;
 }
 </style>

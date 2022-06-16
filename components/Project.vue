@@ -1,5 +1,5 @@
 <template>
-  <Link :href="href" :classes="`flex`">
+  <AppLink :href="href" :classes="`flex`">
     <div
       :class="colors"
       class="
@@ -48,11 +48,8 @@
         </p>
         <p class="text-lg text-gray-400 font-normal self-start">{{ info }}</p>
       </div>
-      <!-- <Link :href="href" classes="md:hidden">
-        {{ $t('projects.linkToProject') }}
-      </Link> -->
     </div>
-  </Link>
+  </AppLink>
 </template>
 
 <script>

@@ -10,8 +10,8 @@
     <br />
     <p>
       E-Mail (bevorzugt):
-      <Link href="mailto:hallo@sophieskartenwelt.de"
-        >maleneklit@hotmail.com</Link
+      <a class="link" href="mailto:hallo@sophieskartenwelt.de"
+        >maleneklit@hotmail.com</a
       >
       <br />
       Telefon: 01624201615
@@ -22,13 +22,14 @@
       Verbraucherschlichtungsstelle weder verpflichtet noch bereit. Die
       Europäische Kommission bietet eine Onlineplattform für Streitbeilegung an,
       die Sie hier finden:
-      <Link href="https://ec.europa.eu/consumers/odr/"
-        >https://ec.europa.eu/consumers/odr/ </Link
+      <a class="link" href="https://ec.europa.eu/consumers/odr/"
+        >https://ec.europa.eu/consumers/odr/ </a
       >Unter diesem Link finden Sie die Kontaktdaten der offiziellen
       Streitbeilegungsstellen:
-      <Link
+      <a
+        class="link"
         href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.adr.show"
-        >https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.adr.show</Link
+        >https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.adr.show</a
       >.
     </p>
   </section>

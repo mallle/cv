@@ -9,12 +9,12 @@
       <a href="mailto:maleneklit@hotmail.com">maleneklit@hotmail.com</a>
     </p>
     <div class="mt-5">
-      <Link href="https://github.com/mallle"
+      <AppLink href="https://github.com/mallle"
         ><i class="devicon-github-original icon mr-8"></i
-      ></Link>
-      <Link href="https://www.linkedin.com/in/malene-klit/">
+      ></AppLink>
+      <AppLink href="https://www.linkedin.com/in/malene-klit/">
         <i class="devicon-linkedin-plain icon"></i>
-      </Link>
+      </AppLink>
     </div>
   </div>
 </template>
