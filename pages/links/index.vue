@@ -1,22 +1,22 @@
 <template>
   <section class="cv-section">
     <h1 class="mt-8 mb-4">Deutsch</h1>
-    <Link
+    <AppLink
       v-for="(link, i) in links.de"
       :key="i"
       classes="link-primary"
       :href="link.href"
     >
-      {{ link.text }}</Link
+      {{ link.text }}</AppLink
     >
     <h1 class="mt-16 mb-4">English</h1>
-    <Link
+    <AppLink
       v-for="(link, i) in links.en"
       :key="i"
       classes="link-secondary"
       :href="link.href"
     >
-      {{ link.text }}</Link
+      {{ link.text }}</AppLink
     >
   </section>
 </template>
