@@ -1,5 +1,5 @@
 <template>
-  <section class="cv-section">
+  <section class="section">
     <h1>Impressum</h1>
 
     <p>Angaben gemäß § 5 TMG:</p>
