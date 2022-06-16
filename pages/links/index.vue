@@ -47,6 +47,10 @@ export default {
         ],
         en: [
           {
+            href: 'https://mallle.netlify.app/blog',
+            text: 'My blog',
+          },
+          {
             href: 'https://storyways.app',
             text: 'Storyways - App for interactive stories',
           },
