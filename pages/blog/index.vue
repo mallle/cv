@@ -23,5 +23,13 @@ export default {
       posts,
     }
   },
+  head() {
+    return {
+      titleTemplate: (titleChunk) => {
+        // If undefined or blank then we don't need the hyphen
+        return titleChunk ? `${titleChunk} Blog` : 'Blog'
+      },
+    }
+  },
 }
 </script>

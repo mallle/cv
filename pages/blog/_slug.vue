@@ -24,7 +24,12 @@ export default {
   },
   head() {
     return {
-      title: this.article.title,
+      titleTemplate: (titleChunk) => {
+        // If undefined or blank then we don't need the hyphen
+        return titleChunk
+          ? `${titleChunk} ${this.article.title}`
+          : this.article.title
+      },
       meta: [
         {
           hid: 'description',
