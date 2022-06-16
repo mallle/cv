@@ -11,7 +11,7 @@
 export default {
   layout: 'slim',
   async asyncData({ $content, params, error }) {
-    const slug = params.slug || 'about'
+    const slug = params.slug
     const article = await $content(slug)
       .fetch()
       .catch((_err) => {
@@ -54,3 +54,10 @@ export default {
   },
 }
 </script>
+
+<style lang="postcss" scoped>
+code {
+  word-wrap: break-word;
+  @apply bg-yellow-100;
+}
+</style>

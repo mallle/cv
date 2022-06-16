@@ -12,7 +12,9 @@
       mb-6
     "
   >
-    <p class="p-6">{{ title }}</p>
+    <p class="p-6 text-2xl md:text-6xl" style="word-wrap: break-word">
+      {{ title }}
+    </p>
   </div>
 </template>
 <script>

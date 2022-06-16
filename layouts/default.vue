@@ -50,6 +50,11 @@ h1 {
   @apply text-4xl md:text-7xl font-bold pb-3 uppercase tracking-widest font-mono;
 }
 
+h2 {
+  @apply text-2xl md:text-3xl font-bold pb-3 pt-12 font-mono;
+  display: inline-block;
+}
+
 h3 {
   @apply text-3xl md:text-6xl font-bold pb-3 uppercase tracking-widest font-mono;
 }
@@ -59,6 +64,13 @@ h3:after {
   content: '\A';
   @apply bg-gradient-to-r from-yellow-100 via-blue-200 to-purple-300 h-2 w-4;
   @apply flex h-1 w-64;
+}
+
+h2:after {
+  content: '\A';
+  @apply bg-gradient-to-r from-yellow-100 via-blue-200 to-purple-300 h-2 w-4;
+  @apply flex h-1;
+  width: 70%;
 }
 
 h4 {

@@ -16,18 +16,16 @@
         md:hover:scale-95 md:hover:bg-blue-50 md:hover:border-blue-200
       "
     >
-      <!-- <nuxt-img
-        class="rounded-lg"
-        :src="post.image"
-        preset="preview"
-        width="400"
-        height="300"
-      /> -->
-      <ul v-if="post.tags" class="flex space-x-3 mt-2 mb-4">
-        <Tag v-for="tag in post.tags" :key="tag" :tag="tag" />
-      </ul>
       <PostHeader :title="post.title" />
-      <p class="pt-4 pb-8">{{ post.description }}</p>
+      <div class="pt-0 px-2">
+        <p class="pb-2 italic text-gray-600 text-right">
+          Updated: {{ formatDate }}
+        </p>
+        <p>{{ post.description }}</p>
+        <ul v-if="post.tags" class="flex space-x-3 mt-8 mb-4">
+          <Tag v-for="tag in post.tags" :key="tag" :tag="tag" />
+        </ul>
+      </div>
     </div>
   </a>
 </template>
@@ -37,6 +35,21 @@ export default {
     post: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    formatDate() {
+      const date = new Date(this.post.updatedAt)
+      return [
+        this.padTo2Digits(date.getDate()),
+        this.padTo2Digits(date.getMonth() + 1),
+        date.getFullYear(),
+      ].join('-')
+    },
+  },
+  methods: {
+    padTo2Digits(num) {
+      return num.toString().padStart(2, '0')
     },
   },
 }

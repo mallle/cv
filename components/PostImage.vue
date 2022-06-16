@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <img class="mt-4 mb-2 w-full md:w-1/2" :src="`/blog/${src}`" :alt="alt" />
+  <div class="mt-4 mb-8">
+    <img
+      class="mt-4 mb-2 shadow-md mx-auto"
+      :class="classes"
+      :src="`/blog/${src}`"
+      :alt="alt"
+    />
     <p v-if="description">{{ description }}</p>
   </div>
 </template>
@@ -23,7 +28,7 @@ export default {
     classes: {
       type: String,
       required: false,
-      default: null,
+      default: 'w-full md:w-1/2',
     },
   },
 }
