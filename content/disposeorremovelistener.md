@@ -22,7 +22,7 @@ Try to remember:
 
 ## The code we will explore:
 
-We will build a small app with a list of items - each item will receive an instance of the <code>AnimationCcontroller()</code>. We will also have an <code>IconButton()</code> to start the animation. In this example, we use the <code>ListView.builder(</code>) to render our list items lazy; this will add or remove the ListItems while scrolling the list. As soon as a ListItem enters the view of the screen, <code>initState()</code> of that ListItem will get called. On the other hand, when a ListItem isn't visible anymore, it will get disposed, and therefore, <code>dispose()</code> of that ListItem will get called. We can use this to our advantage and test a thing or two.
+We will build a small app with a list of items - each item will receive an instance of the <code>AnimationController()</code>. We will also have an <code>IconButton()</code> to start the animation. In this example, we use the <code>ListView.builder(</code>) to render our list items lazy; this will add or remove the ListItems while scrolling the list. As soon as a ListItem enters the view of the screen, <code>initState()</code> of that ListItem will get called. On the other hand, when a ListItem isn't visible anymore, it will get disposed, and therefore, <code>dispose()</code> of that ListItem will get called. We can use this to our advantage and test a thing or two.
 
 <PostImage src="disposeApp.png" alt="Image of the app" classes="h-36"></PostImage>
 
