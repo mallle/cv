@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <h1>Blog</h1>
+    <h1>My Blog</h1>
     <h4 class="mb-10">
       Welcome to my blog - here I will post about Dart and Flutter 📱🚀.
     </h4>

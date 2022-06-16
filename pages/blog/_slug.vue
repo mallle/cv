@@ -54,10 +54,3 @@ export default {
   },
 }
 </script>
-
-<style lang="postcss" scoped>
-code {
-  word-wrap: break-word;
-  @apply bg-yellow-100;
-}
-</style>
