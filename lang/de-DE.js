@@ -57,10 +57,10 @@ export default {
     headline: 'Bildung',
     info: [
       {
-        toFrom: 'August 2007 – Juli 2009',
-        what: 'Ausbildung zur Bürokauffrau (Dänisches Zeugnis)',
-        where: 'Burger King® GmbH – Central Europe München',
-        info: 'Abteilung: Development und Facility/Company Operations.',
+        toFrom: 'September 2017 – Juli 2019',
+        what: 'Ausbildung zur Fachinformatikerin als Anwendungsentwicklerin',
+        where: 'bei LINKS DER ISAR GmbH',
+        info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.',
       },
       {
         toFrom: 'Okotber 2013 – Juli 2016',
@@ -69,32 +69,39 @@ export default {
         info: 'Schwerpunkt: Human Resources, Lehren und Lernen. Thema der Bachelorarbeit: Weiterbildung im europäischen Vergleich.',
       },
       {
-        toFrom: 'September 2017 – Juli 2019',
-        what: 'Ausbildung zur Fachinformatikerin als Anwendungsentwicklerin',
-        where: 'bei LINKS DER ISAR GmbH',
-        info: 'Schwerpunkte: PHP (Laravel), JavaSript (Vue.js), MySql, neo4j.',
+        toFrom: 'August 2007 – Juli 2009',
+        what: 'Ausbildung zur Bürokauffrau (Dänisches Zeugnis)',
+        where: 'Burger King® GmbH – Central Europe München',
+        info: 'Abteilung: Development und Facility/Company Operations.',
       },
     ]
   },
   experience: {
     headline: 'Erfahrungen',
-    info: [ 
+    info: [
       {
-        toFrom: 'Seit März 2021',
+        toFrom: 'Seit Januar 2023',
+        what: 'Junior Frontend Developer',
+        where:
+          'bei Doinstruct',
+        info: 'Entwicklung von web apps mit SvelteKit und SCSS.',
+      },
+      {
+        toFrom: 'März 2022 - Dezember 2023',
         what: 'Mobile Developer',
         where:
           'bei Tapped UG',
         info: 'Entwicklung von Apps mit Dart und Flutter.',
       },
       {
-        toFrom: 'Seit  Oktober 2020',
+        toFrom: 'Seit Oktober 2020',
         what: 'Mitgründerin',
         where: 'von Fictionic UG (haftungsbeschränkt)',
         info: 'Entwicklung von Webseiten mit Nuxt.js mit Einbindung vom Headless CMS Storyblok. Projektmanagement/Entwicklung der Storyways App.',
       },
-      
+
       {
-        toFrom: 'Seit Januar 2021 - Februar 2022',
+        toFrom: 'Januar 2021 - Februar 2022',
         what: 'Solution Developer',
         where:
           'bei Abonnenten Service Center GmbH (Ausgelöst durch Umstrukturierungen im Unternehmen)',
@@ -157,6 +164,10 @@ export default {
     ],
     frameworks: 'Frameworks',
     frameworkIcons: [
+      {
+        icon: 'devicon-svelte-plain',
+        description: 'Svelte',
+      },
       {
         icon: 'devicon-vuejs-plain',
         description: 'Vue.js',

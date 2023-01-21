@@ -55,12 +55,12 @@ export default {
   },
   education: {
     headline: 'Education',
-    info: [ 
+    info: [
       {
-        toFrom: '08.2007 – 07.2009',
-        what: 'Apprenticeship - Office clerk (Certifate in Danish)',
-        where: 'at Burger King® GmbH – Central Europe München',
-        info: 'Department: Development und Facility/Company Operations',
+        toFrom: '09.2017 – 07.2019',
+        what: 'Apprenticeship as Application Developer',
+        where: 'at LINKS DER ISAR GmbH',
+        info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j',
       },
       {
         toFrom: '10.2013 – 07.2016',
@@ -69,16 +69,23 @@ export default {
         info: "Bachelor's thesis: Compare in-house training in EU.",
       },
       {
-        toFrom: '09.2017 – 07.2019',
-        what: 'Apprenticeship as Application Developer',
-        where: 'at LINKS DER ISAR GmbH',
-        info: 'Focus: PHP (Laravel), JavaSript (Vue.JS), MySql, neo4j',
-      }
+        toFrom: '08.2007 – 07.2009',
+        what: 'Apprenticeship - Office clerk (Certifate in Danish)',
+        where: 'at Burger King® GmbH – Central Europe München',
+        info: 'Department: Development und Facility/Company Operations',
+      },
     ],
   },
   experience: {
     headline: 'Experience',
-    info: [ 
+    info: [
+      {
+        toFrom: 'Since 01.2023',
+        what: 'Junior Frontend Developer',
+        where:
+          'at Doinstruct',
+        info: 'Development of web apps with SvelteKit und SCSS.',
+      },
       {
         toFrom: 'Since 03.2022',
         what: 'Mobile Developer',
@@ -155,6 +162,10 @@ export default {
     ],
     frameworks: 'Frameworks',
     frameworkIcons: [
+      {
+        icon: 'devicon-svelte-plain',
+        description: 'Svelte',
+      },
       {
         icon: 'devicon-vuejs-plain',
         description: 'Vue.js',
