@@ -87,7 +87,7 @@ export default {
         info: 'Entwicklung von web apps mit SvelteKit und SCSS.',
       },
       {
-        toFrom: 'März 2022 - Dezember 2023',
+        toFrom: 'März 2022 - Dezember 2022',
         what: 'Mobile Developer',
         where:
           'bei Tapped UG',

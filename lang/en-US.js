@@ -87,7 +87,7 @@ export default {
         info: 'Development of web apps with SvelteKit und SCSS.',
       },
       {
-        toFrom: 'Since 03.2022',
+        toFrom: '03.2022-12.2022',
         what: 'Mobile Developer',
         where:
           'at Tapped UG',
