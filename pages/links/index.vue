@@ -28,6 +28,10 @@ export default {
     return {
       links: {
         de: [
+        {
+            href: 'https://yourownthinking.net',
+            text: 'Time to Think Coach',
+          },
           {
             href: 'https://storyways.app/de',
             text: 'Storyways - App für Interactive Geschichten',
@@ -46,6 +50,10 @@ export default {
           },
         ],
         en: [
+          {
+            href: 'https://yourownthinking.net',
+            text: 'Time to Think Coach',
+          },
           {
             href: 'https://mallle.netlify.app/blog',
             text: 'My blog',
